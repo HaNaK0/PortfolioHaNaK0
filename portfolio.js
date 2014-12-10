@@ -1,0 +1,3 @@
+$(doctype).ready(function() {
+	
+});
