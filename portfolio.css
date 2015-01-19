@@ -78,3 +78,16 @@ nav{
 	
 	transition: left 1s;
 }
+
+.exitButton {
+	position: relative;
+	background-color: red;
+	
+	height: 20px;
+	width: 20px;
+	
+	left: 90%;
+	top: 0;
+	
+	z-index: 5;
+}
