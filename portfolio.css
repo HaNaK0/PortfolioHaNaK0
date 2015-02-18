@@ -1,3 +1,4 @@
+
 body{
 	background-color: #1C1C1F
 }
@@ -90,4 +91,23 @@ nav.main{
 	top: 0;
 	
 	z-index: 5;
+}
+
+.innerNav {
+	position: absolute;	
+	top: 10%;
+	left: 50%;
+	
+	display: inline;
+}
+
+.innerNavB{
+	position: realtive;
+	display: inline;
+}
+
+.innerNavB p {
+	display: inline;
+	font-size: 30px;
+	color: white;
 }
