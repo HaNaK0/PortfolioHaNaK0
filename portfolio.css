@@ -80,34 +80,16 @@ nav.main{
 	transition: left 1s;
 }
 
-.exitButton {
-	position: relative;
-	background-color: red;
-	
-	height: 20px;
-	width: 20px;
-	
-	left: 90%;
-	top: 0;
-	
-	z-index: 5;
+.bodyContent{
+	width: 55%;
+	height: 100vh;
+	margin: 0 auto;
+	overflow: auto;
 }
 
-.innerNav {
-	position: absolute;	
-	top: 10%;
-	left: 50%;
+h3{
+	margin: 25% 10px 25% 50%;
+	font-size: 65px;
+	transform: translate(-25%,0)
 	
-	display: inline;
-}
-
-.innerNavB{
-	position: realtive;
-	display: inline;
-}
-
-.innerNavB p {
-	display: inline;
-	font-size: 30px;
-	color: white;
 }
